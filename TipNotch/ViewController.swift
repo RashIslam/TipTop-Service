@@ -16,6 +16,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        //sets the tittle in the navigation bar
+        self.title = "Tip Calculator"
+        
+        //set default values
+        
+        //autoamtically selects text field upon opening app
         billField.becomeFirstResponder()
     }
 
