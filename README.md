@@ -4,7 +4,7 @@
 
 Submitted by: **Mohammed Rashadul Islam**
 
-Time spent: **2** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
@@ -22,7 +22,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ ] Dividing the bill across multiple people
+- [ ] Rounding the bill up to the nearest digit
 
 ## Video Walkthrough
 
@@ -34,7 +35,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I had a difficult time understanding which items in the storyboard should be connected to which parts of the swift file. Also, when connecting objects, I don't know if I should make it a separate function or make it an outlet.
+I had a difficult time understanding which items in the storyboard should be connected to which parts of the swift file. Also, when connecting objects, I don't know if I should make it a separate function or make it an outlet. I don't seem to understand how to switch to a settings page, despite creating a button for switching views. For creating custom tip values, I am not sure where to begin, such that I would be able to change the values in the array, as well as permanently changing them on the display as well. I wanted to create functionality that woudl allow for the bill to be divided by any given number of people. Furthermore, I wanted to make a slider control the tip amount, but I am unsure of how to implement this without interfering with the segmented control. Lastly, I would like to create a toggle button that would round the total up to the nearest chosen digit, so that users would not be bothered with small change.
 
 ## License
 
