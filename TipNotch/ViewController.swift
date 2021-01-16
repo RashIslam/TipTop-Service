@@ -10,7 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var billField: UITextField!
+    @IBOutlet weak var splitField: UITextField!
     @IBOutlet weak var totalLabel: UILabel!
+    @IBOutlet weak var perPersonLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     
     override func viewDidLoad() {
@@ -40,6 +42,12 @@ class ViewController: UIViewController {
         //Update totals on display
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        
+        let split = Double(splitField.text!) ?? 2
+        let splittedTotal = total/split
+        perPersonLabel.text = String(format: "$%.2f", splittedTotal)
+        
+        
     }
 }
 
